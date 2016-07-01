@@ -5,14 +5,10 @@
     <link rel="stylesheet" href="style/style.css">
     <script src="js/jquery-3.0.0.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
     <meta charset="UTF-8"/>
     <title>Document</title>
 
 </head>
-
-
-
 <body>
 
 
@@ -40,7 +36,7 @@
         </div>
     </div>
 
-    <!--  кінець хедера  Початок контенту     -->
+    <!--  Початок контенту     -->
     <div class="row" id="content">
         <div class="col-md-3 sidebar" id="side">
             <h3> Додати користувача</h3>
