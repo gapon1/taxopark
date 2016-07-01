@@ -1,18 +1,16 @@
-body{
-   position: relative;
+body {
+    position: relative;
 }
 
-
-
-h2 a{
-   font: 30px Arial,sans-serif ;
-   color: yellow;
-   position: absolute;
-   top: 50px ;
-   left: 600px;
+h2 a {
+    font: 30px Arial, sans-serif;
+    color: yellow;
+    position: absolute;
+    top: 50px;
+    left: 600px;
 }
 
-p{
-   font: 25px Arial,sans-serif ;
-   color: chartreuse;
+p {
+    font: 25px Arial, sans-serif;
+    color: chartreuse;
 }

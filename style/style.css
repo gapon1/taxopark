@@ -1,32 +1,30 @@
 body {
     background-image: url(../image/bg.png);
     height: 900px;
+    width: 1300px;
+    margin: 0 auto;
 }
 
-
-#menu{
+#menu {
     height: 70px;
     position: absolute;
     top: 5px;
     right: 145px;
     background: lightblue;
-    font: bold 15px Arial,sans-serif;
-
+    font: bold 15px Arial, sans-serif;
 
 }
 
-#menu a{
+#menu a {
 
     color: midnightblue;
 }
-
 
 #header {
     height: 95px;
     position: relative;
     background-image: url(../image/1.jpg);
 }
-
 
 .sidebar {
     padding: 5px;
@@ -35,78 +33,74 @@ body {
     position: relative;
 }
 
-
 #side {
-position: relative;
+    position: relative;
 }
 
 #side h3 {
-      position: absolute;
+    position: absolute;
     top: 20px;
     left: 28px;
 }
 
-#form{
-position: absolute;
+#form {
+    position: absolute;
     top: 75px;
 }
 
-#formvod{
-position: absolute;
-   margin: 55px 0 0 46px;
-
-}
-
-#formavt{
+#formvod {
     position: absolute;
-  margin: 140px 0 0 20px;
+    margin: 55px 0 0 46px;
 
 }
-#formrosp{
+
+#formavt {
+    position: absolute;
+    margin: 140px 0 0 20px;
+
+}
+
+#formrosp {
     position: absolute;
     margin: 225px 0 0 48px;
 
 }
 
-#btnvb{
-      position: relative;
+#btnvb {
+    position: relative;
     margin: 300px 0 0 250px;
     color: darkmagenta;
 }
 
-
-
-
-.image{
-      position: absolute;
-     top: 300px;
+.image {
+    position: absolute;
+    top: 300px;
     left: 40px;;
 }
 
-
-#content{
-background: white;
+#content {
+    background: white;
 
 }
 
-
-.col-md-9{
+.col-md-9 {
     height: 600px;
     position: relative;
 
 }
 
-.table{
+.table {
     margin: 8px 0;
 }
-.table thead tr{
+
+.table thead tr {
     background: #737373;
     color: white;
 }
 
 #footer {
     height: 150px;
-    background:url(../image/foo.png);
+    background: url(../image/foo.png);
 }
 
 #footer .col-sm-4 {
@@ -114,71 +108,72 @@ background: white;
     height: 150px;
     position: relative;
 
-
 }
 
-#footer h3{
+#footer h3 {
     font: bold 25px Arial, sans-serif;
     color: white;
     position: absolute;
-    right:135px;
+    right: 135px;
 }
 
-#footer  .col-sm-4 ul {
-       color: gold;
-       top: 55px;
-       right: 150px;
-       position: absolute;
+#footer .col-sm-4 ul {
+    color: gold;
+    top: 55px;
+    right: 150px;
+    position: absolute;
 
 }
-#footer  .col-sm-4 ul a{
+
+#footer .col-sm-4 ul a {
     text-decoration: none;
-    font: 16px Arial,sans-serif;
+    font: 16px Arial, sans-serif;
     color: darkgoldenrod;
 
 }
 
-#footer  #col3 a {
-    font: 20px Arial,sans-serif;
+#footer #col3 a {
+    font: 20px Arial, sans-serif;
     color: darkseagreen;
 
 }
 
-
-#footer #col2 ol{
-     color: aliceblue;
+#footer #col2 ol {
+    color: aliceblue;
     position: absolute;
     top: 50px;;
 }
 
-#col2{
+#col2 {
     position: relative;
 }
 
-#col2 .imlin{
-position: absolute;
+#col2 .imlin {
+    position: absolute;
     right: 430px;
 }
 
 .imgrosp {
-   position: absolute;
+    position: absolute;
     top: 30px;
     left: 80px;
 }
 
-#h2rosp{
-     position: absolute;
+#h2rosp {
+    position: absolute;
     left: 450px;
     top: 70px;
 }
- .imstr{
-        position: absolute;
-     top: 45px;
-     left: 280px;
- }
-.imgavt{
-   position: absolute;
-    top:   210px;
+
+.imstr {
+    position: absolute;
+    top: 45px;
+    left: 280px;
+}
+
+.imgavt {
+    position: absolute;
+    top: 210px;
     left: 70px;
 }
 
@@ -187,16 +182,17 @@ position: absolute;
     top: 210px;
     left: 280px;
 }
-#h2avt{
+
+#h2avt {
     position: absolute;
     left: 450px;
     top: 235px;
 }
 
-.imgvod{
+.imgvod {
     position: absolute;
     top: 380px;
-    left:70px;
+    left: 70px;
 }
 
 .imstrvod {
@@ -205,14 +201,11 @@ position: absolute;
     left: 280px;
 }
 
-#h2vod{
+#h2vod {
     position: absolute;
     left: 450px;
     top: 400px;
 }
 
-
-
-
-.navbar{
+.navbar {
     position: absolute;

@@ -2,40 +2,34 @@
 <html>
 <head>
     <link rel="stylesheet" href="style/styleform.css">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"  >
-<title>Додавання користувача</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Додавання користувача</title>
 </head>
 
 <body style="background-image: url(../image/12345.jpg)">
 
-<?php 
+<?php
 
-if (isset($_POST['почав']))
-{
-$почав = $_POST['почав'];
+if (isset($_POST['почав'])) {
+    $почав = $_POST['почав'];
 }
 
-if (isset($_POST['закінчив']))
-{
-$закінчив = $_POST['закінчив'];
+if (isset($_POST['закінчив'])) {
+    $закінчив = $_POST['закінчив'];
 }
 
 
-
-$db = new mysqli("localhost","gapon","123456","avtopark");
-mysqli_set_charset( $db,"utf8");
+$db = new mysqli("localhost", "gapon", "123456", "avtopark");
+mysqli_set_charset($db, "utf8");
 $sql = "INSERT INTO rospis (почав,закінчив) VALUES ('$почав','$закінчив')";
-$result = mysqli_query ($db,$sql);
-$myrow = mysqli_select_db($db,$result);
+$result = mysqli_query($db, $sql);
+$myrow = mysqli_select_db($db, $result);
 
-if ($result == 'true')
-{
-echo "<p>Ви успішно додали час роботи!</p>   <h2> <a href='index.php'>На головну</a> </h2>";
+if ($result == 'true') {
+    echo "<p>Ви успішно додали час роботи!</p>   <h2> <a href='index.php'>На головну</a> </h2>";
 
-}
-else 
-{
-echo "User das't addit!";
+} else {
+    echo "User das't addit!";
 }
 
 
