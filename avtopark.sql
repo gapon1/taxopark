@@ -7,7 +7,10 @@
 -- Версия сервера: 5.5.48
 -- Версия PHP: 5.5.33
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f2aebf88fe9e371adb4fa0ad518de0576a25cfb6
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
