@@ -16,7 +16,7 @@
 
 <div class="container" id="wrapper">
 
-    <!--    Початок header         -->
+    <!--     Початок header         -->
 
     <div class="row" id="header">
         <div class="col-md-10 ">
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <!--    Початок контенту     -->
+    <!--  кінець хедера  Початок контенту     -->
     <div class="row" id="content">
         <div class="col-md-3 sidebar" id="side">
             <h3> Додати користувача</h3>
