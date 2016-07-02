@@ -135,7 +135,7 @@
                     <button type="submit" class="btn btn-danger ">Додати час відправлення</button>
                 </form>
             </div>
-            <a href="mysql3.php">
+            <a href="mysql_JOIN_SELECT.php">
                 <button id="btnvb" type="button" class="btn btn-warning"> Вибірка маршрутів водіїв автомобілів</button>
             </a>
 
