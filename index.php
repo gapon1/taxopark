@@ -40,7 +40,7 @@
     <div class="row" id="content">
         <div class="col-md-3 sidebar" id="side">
             <h3> Додати користувача</h3>
-            <form id="form" class="navbar-form navbar" action="mysql_insert_site.php" method="post" name="form">
+            <form id="form" class="navbar-form navbar" action="mysql_insert_profile.php" method="post" name="form">
 
                 <div class="form">
                     <div class="form-group ">
