@@ -50,25 +50,25 @@ body {
 
 #formvod {
     position: absolute;
-    margin: 55px 0 0 46px;
+    margin: 90px 0 0 46px;
 
 }
 
 #formavt {
     position: absolute;
-    margin: 140px 0 0 20px;
+    margin: 180px 0 0 20px;
 
 }
 
 #formrosp {
     position: absolute;
-    margin: 225px 0 0 48px;
+    margin: 260px 0 0 48px;
 
 }
 
 #btnvb {
     position: relative;
-    margin: 300px 0 0 250px;
+    margin: 350px 0 0 250px;
     color: darkmagenta;
 }
 
@@ -153,11 +153,6 @@ body {
     right: 430px;
 }
 
-.imgrosp {
-    position: absolute;
-    top: 30px;
-    left: 80px;
-}
 
 #h2rosp {
     position: absolute;
@@ -165,23 +160,9 @@ body {
     top: 70px;
 }
 
-.imstr {
-    position: absolute;
-    top: 45px;
-    left: 280px;
-}
 
-.imgavt {
-    position: absolute;
-    top: 210px;
-    left: 70px;
-}
 
-.imstravt {
-    position: absolute;
-    top: 210px;
-    left: 280px;
-}
+
 
 #h2avt {
     position: absolute;
@@ -189,23 +170,14 @@ body {
     top: 235px;
 }
 
-.imgvod {
-    position: absolute;
-    top: 380px;
-    left: 70px;
-}
 
-.imstrvod {
-    position: absolute;
-    top: 380px;
-    left: 280px;
-}
 
 #h2vod {
     position: absolute;
     left: 450px;
     top: 400px;
 }
+
 
 .navbar {
     position: absolute;

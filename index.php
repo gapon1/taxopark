@@ -112,7 +112,7 @@
                                placeholder="Mersedes">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail2">Car number</label>
+                        <label for="exampleInputEmail2">&nbsp&nbsp&nbsp Number</label>
                         <input name="number" type="text" class="form-control" placeholder="AA9809BB">
                     </div>
 
@@ -127,7 +127,7 @@
                         <input name="почав" type="datetime" class="form-control" placeholder="Time 2016-06-01 09:00:00">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail2">&nbsp&nbsp&nbsp&nbspExit</label>
+                        <label for="exampleInputEmail2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspExit</label>
                         <input name="закінчив" type="datetime" class="form-control"
                                placeholder="Time 2016-06-01 18:00:00 ">
                     </div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - avtopark@localhost" uuid="aefd11ee-efc8-4af6-89bd-22899f2170cb">
+      <secret-storage>master_key</secret-storage>
+      <user-name>gapon</user-name>
+    </data-source>
+  </component>
+</project>
